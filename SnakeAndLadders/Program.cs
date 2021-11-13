@@ -9,7 +9,8 @@ namespace SnakeAndLadder
             Console.WriteLine("Welcome to the Snake and Ladder game");
             SnakeAndLadder snk = new SnakeAndLadder();
             snk.rollDie();
+            snk.Play();
+
         }
     }
 }
-
